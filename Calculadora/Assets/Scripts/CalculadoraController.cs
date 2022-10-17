@@ -14,15 +14,10 @@ public class CalculadoraController : MonoBehaviour
         TextDisplayII.text = "";
     }
 
-    // Update is called once per frame
-    void Update()
+    public void BtnCharacter(string character)
     {
-        
-    }
-    public void HandleInsertValue()
-    {
-        TextDisplayII.text = "1";
-        TextDisplayI.text = TextDisplayI.text + " " + TextDisplayII.text;
+        TextDisplayII.text = character;
+        TextDisplayI.text = TextDisplayI.text + TextDisplayII.text;
     }
 
 }
