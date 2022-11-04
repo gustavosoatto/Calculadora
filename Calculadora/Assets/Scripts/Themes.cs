@@ -20,9 +20,6 @@ public class Themes : MonoBehaviour
     //ui component
     [SerializeField] private SpriteRenderer m_SpriteRenderer;
 
-    //private int contador = 0;
-    //float m_Red, m_Blue, m_Green;
-
     void Start()
     {
         m_SpriteRenderer = GetComponent<SpriteRenderer>();

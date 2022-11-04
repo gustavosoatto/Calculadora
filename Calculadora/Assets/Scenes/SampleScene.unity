@@ -1102,7 +1102,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: deg
+  m_Text: tan
 --- !u!222 &249158908
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1422,7 +1422,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: e
+  m_Text: '%'
 --- !u!222 &442364370
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1971,7 +1971,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\xB5"
+  m_Text: cos
 --- !u!222 &561595407
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2896,7 +2896,7 @@ GameObject:
   - component: {fileID: 893996972}
   - component: {fileID: 893996971}
   m_Layer: 5
-  m_Name: "\xB5"
+  m_Name: cos
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2969,14 +2969,14 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 725676070}
         m_TargetAssemblyTypeName: CalculadoraController, Assembly-CSharp
-        m_MethodName: BtnCharacter
-        m_Mode: 5
+        m_MethodName: Cos
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: "\xB5"
+          m_StringArgument: cos
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &893996972
@@ -3589,7 +3589,7 @@ GameObject:
   - component: {fileID: 1083611586}
   - component: {fileID: 1083611585}
   m_Layer: 5
-  m_Name: e
+  m_Name: '%'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3662,8 +3662,8 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 725676070}
         m_TargetAssemblyTypeName: CalculadoraController, Assembly-CSharp
-        m_MethodName: BtnCharacter
-        m_Mode: 5
+        m_MethodName: Percentage
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -4584,8 +4584,8 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 725676070}
         m_TargetAssemblyTypeName: CalculadoraController, Assembly-CSharp
-        m_MethodName: BtnCharacter
-        m_Mode: 5
+        m_MethodName: Sin
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -5230,7 +5230,7 @@ GameObject:
   - component: {fileID: 1850728577}
   - component: {fileID: 1850728578}
   m_Layer: 5
-  m_Name: deg
+  m_Name: tan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6045,7 +6045,7 @@ GameObject:
   - component: {fileID: 2101162804}
   - component: {fileID: 2101162803}
   m_Layer: 5
-  m_Name: deg
+  m_Name: tan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6118,8 +6118,8 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 725676070}
         m_TargetAssemblyTypeName: CalculadoraController, Assembly-CSharp
-        m_MethodName: BtnCharacter
-        m_Mode: 5
+        m_MethodName: Tan
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
